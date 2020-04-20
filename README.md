@@ -39,7 +39,7 @@ To create a global resource to respond to a pandemic. A Decentralized Autonomous
   - A Global response to a global crisis through an international cooperative DAO using AI to model, inform and manage global resources.
 
 
-## Technical Requirements
+## Technical Requirements (MVP in bold)
 1. Supply Chain
   - Existing supplies in reserves. Tapping into community supply, combining resources into a general supply
   - Facilitate distribution of supplies
