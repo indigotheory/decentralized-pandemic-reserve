@@ -1,3 +1,7 @@
 .MuiButton-containedPrimary {
   min-width: 10em!important;
+  max-width:12.4em;
+}
+.MuiGrid-container .MuiGrid-container.MuiGrid-item {
+    padding: 1.75em;
 }
