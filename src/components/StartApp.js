@@ -20,9 +20,13 @@ const useStyles = makeStyles((theme) => ({
   offerContainer: {
     borderRight: 'solid 1px #000000',
     textAlign: 'center',
+    flexDirection: 'column',
+    alignContent: 'center',
   },
   needContainer: {
     textAlign: 'center',
+    flexDirection: 'column',
+    alignContent: 'center',
   },
 }));
 
@@ -33,16 +37,16 @@ export default function FixedContainer() {
     <React.Fragment>
       <CssBaseline />
 
-      <Container maxWidth="sm"  spacing={6} style={{ backgroundColor: '#ffffff', height: '100vh', padding: '2em' }} >
+      <Container maxWidth="sm" spacing={6} style={{ backgroundColor: '#ffffff', height: '100vh', padding: '2em' }} >
 
-        <Grid container spacing={3}>
+        <Grid container spacing={4}>
           <Grid item xs={6} className={classes.offerContainer}>
-            <Button variant="contained" color="primary">
+            <Button variant="contained" color="primary" href="/offer">
               I Can Offer
             </Button>
           </Grid>
           <Grid item xs={6} className={classes.needContainer}>
-            <Button variant="contained" color="primary">
+            <Button variant="contained" color="primary" href="/need">
               I Need
             </Button>
           </Grid>

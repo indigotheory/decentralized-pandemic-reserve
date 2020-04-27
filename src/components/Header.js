@@ -4,6 +4,12 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import logo from '../img/logo.png'; // Tell webpack this JS file uses this image
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 export default function FixedContainer() {
   return (
@@ -11,7 +17,11 @@ export default function FixedContainer() {
       <CssBaseline />
       <Container maxWidth="sm" >
         <div className="logo-container">
-            <img src={logo} alt="DPR Logo" style={{ width: '100%' }}/>
+            <Router>
+                <Link to='/'>
+                    <img src={logo} alt="DPR Logo" style={{ width: '100%' }}/>
+                </Link>
+            </Router>
         </div>
         <Typography variant="h1" class="head-center clear-margin">
             Welcome to DPR
