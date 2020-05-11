@@ -10,7 +10,7 @@
 
 ## Deliverables for STOP COVID-19
 1. [**Presentation**](https://docs.google.com/presentation/d/e/2PACX-1vRM_FUwSpi4BA0oAm10UXR64mjuunhkXMJWH2D1oOmz7AOzQaaDfrKYUG-ZzLkjfpDyp1gDkkhLcHaY/pub?start=false&loop=false&delayms=3000)
-2. [**DEMO**](https://youtu.be/CtTM2FqyLo4)
+2. [**DEMO**](https://youtu.be/nG3cCnCNum8)
 3. [**Axure Prototype**](https://e2us1r.axshare.com)
 4. [**inVision Prototype**](https://indigotheory.invisionapp.com/overview/DPR-ck9rffjvz07hd01076jheelpn/screens?v=bujilqen8m8ARyhPKOr5%2FQ%3D%3D&linkshare=urlcopied)
 
