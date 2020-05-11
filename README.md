@@ -7,6 +7,7 @@
 @nanspro
 @ronaldstoner
 @exynos-999
+[Deciding Vote](https://mainnet.aragon.org/#/dmrb/0x8e726b1fe740427f6d6e5857d83a6a2f504efab0/vote/7/)
 
 ## Deliverables for STOP COVID-19
 1. [**Presentation**](https://docs.google.com/presentation/d/e/2PACX-1vRM_FUwSpi4BA0oAm10UXR64mjuunhkXMJWH2D1oOmz7AOzQaaDfrKYUG-ZzLkjfpDyp1gDkkhLcHaY/pub?start=false&loop=false&delayms=3000)
