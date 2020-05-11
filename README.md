@@ -10,7 +10,7 @@
 [Deciding Vote](https://mainnet.aragon.org/#/dmrb/0x8e726b1fe740427f6d6e5857d83a6a2f504efab0/vote/7/)
 
 ## Deliverables for STOP COVID-19
-1. [**Presentation**](https://docs.google.com/presentation/d/e/2PACX-1vRM_FUwSpi4BA0oAm10UXR64mjuunhkXMJWH2D1oOmz7AOzQaaDfrKYUG-ZzLkjfpDyp1gDkkhLcHaY/pub?start=false&loop=false&delayms=3000)
+1. [**Presentation**](https://github.com/indigotheory/decentralized-pandemic-reserve/blob/master/DECENTRALIZED%20PANDEMIC%20RESERVE.pdf)
 2. [**DEMO**](https://youtu.be/nG3cCnCNum8)
 3. [**Axure Prototype**](https://e2us1r.axshare.com)
 4. [**inVision Prototype**](https://indigotheory.invisionapp.com/overview/DPR-ck9rffjvz07hd01076jheelpn/screens?v=bujilqen8m8ARyhPKOr5%2FQ%3D%3D&linkshare=urlcopied)
