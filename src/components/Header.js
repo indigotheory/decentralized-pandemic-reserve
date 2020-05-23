@@ -1,6 +1,12 @@
 import React, { useState } from 'react'
 import { Header, Button, IconPlus, Tag, SidePanel } from '@aragon/ui';
 
+const h1_a = {
+    fontSize: '2.4em',
+    fontWeight: 600,
+    fontFamily: 'Source Sans Pro'
+  };
+
 function HeaderAragon(){
     const [sidePanelOpened, setSidePanelOpened] = useState(false)
     return(
@@ -8,7 +14,7 @@ function HeaderAragon(){
         <Header
             primary={
                 <>
-                Community Voting
+                <h1 style={h1_a}>Community Voting</h1>
                 {/* <Tag mode="identifier">PTO</Tag> */}
                 </>
             }

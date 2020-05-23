@@ -1,7 +1,7 @@
 import React from 'react'
 import FilterBar from '../components/FilterBar'
 import './VoteNeed.css'
-import CommunityNeed from '../components/CommunityNeed'
+import CommunityNeed from '../CommunityNeed/CommunityNeed'
 
 
 // Some demo data

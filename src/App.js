@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { Main,  SidePanel } from '@aragon/ui'
 import Header from './components/Header.js'
 import VoteNeed from './VoteNeed/VoteNeed'
-import VoteDetail from './VoteNeed/VoteDetail'
-import './App.css'
+import VoteDetail from './VoteNeed/VoteDetail';
+import './App.css';
 // import { Router, Switch, Route } from 'react-router-dom'
 
 

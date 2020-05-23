@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Main, Split, SidePanel } from '@aragon/ui'
-import CommunityNeed from '../components/CommunityNeed'
+import CommunityNeed from '../CommunityNeed/CommunityNeed'
 import ScoreSidebar from '../components/sidebar/ScoreSidebar'
 import Header from '../components/Header'
 import './VoteDetail.css'
