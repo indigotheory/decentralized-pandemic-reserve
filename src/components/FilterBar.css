@@ -1,0 +1,15 @@
+.filterBar {
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #DDE4E9;
+    height: 4.8em;
+    padding: .4em;
+    margin: 1em 0;
+    display: flex;
+    align-items: center;
+}
+.filterBar > button {
+    margin: .6em;
+    flex: 1 100%;
+} 

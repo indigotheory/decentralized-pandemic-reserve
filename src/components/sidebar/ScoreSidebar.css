@@ -1,0 +1,19 @@
+.attribute-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.attribute-scale {
+    background-color: #ccc;
+    height: 3px;
+    width: 100%;
+    position: relative;
+}
+.attribute-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    background-color: rgb(86,64,144);
+    height: 3px;
+}

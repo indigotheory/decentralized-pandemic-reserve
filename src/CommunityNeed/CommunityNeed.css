@@ -1,0 +1,10 @@
+section.openVotes {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 1.2em;
+    row-gap: 1.2em;
+    align-items: start;
+    justify-content: start;
+}

@@ -1,39 +1,37 @@
-import React from 'react';
-import './Header.css';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
-import logo from '../img/logo.png'; // Tell webpack this JS file uses this image
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import React, { useState } from 'react'
+import { Header, Button, IconPlus, Tag, SidePanel } from '@aragon/ui';
 
-export default function FixedContainer() {
-  return (
-    <React.Fragment>
-      <CssBaseline />
-      <Container maxWidth="sm" >
-        <div className="logo-container">
-            <Router>
-                <Link to='/'>
-                    <img src={logo} alt="DPR Logo" style={{ width: '100%' }}/>
-                </Link>
-            </Router>
+const h1_a = {
+    fontSize: '2.4em',
+    fontWeight: 600,
+    fontFamily: 'Source Sans Pro'
+  };
+
+function HeaderAragon(){
+    const [sidePanelOpened, setSidePanelOpened] = useState(false)
+    return(
+        <div>
+        <Header
+            primary={
+                <>
+                <h1 style={h1_a}>Community Voting</h1>
+                {/* <Tag mode="identifier">PTO</Tag> */}
+                </>
+            }
+            secondary={
+                <Button mode="strong" label="New Vote" icon={<IconPlus />} onClick={() => setSidePanelOpened(true)} />
+            }
+        />
+        {/* Hidden on load */}
+        <SidePanel
+            title="Add tokens"
+            opened={sidePanelOpened}
+            onClose={() => setSidePanelOpened(false)}
+        >
+        {/* SidePanel content goes here */}
+        </SidePanel>
         </div>
-        <Typography variant="h1" class="head-center clear-margin">
-            Welcome to DPR
-        </Typography>
-        <Typography variant="body2" class="head-center">
-            Decentralized Pandemic Reserve
-        </Typography>
-        <Typography variant="h2" class="head-center">
-            Join the Consortium
-        </Typography>
-        
-      </Container>
-    </React.Fragment>
-  );
+    )
+    
 }
+export default HeaderAragon

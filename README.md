@@ -1,4 +1,5 @@
 # Decentralized Pandemic Reserve
+## Covidathon Edition
 ### A Decentralized Autonomous Pandemic Reserve to manage international medical resources, supplies, and manufacturing during a pandemic. 
 
 ## The Team
@@ -9,7 +10,7 @@
 @exynos-999
 [Deciding Vote](https://mainnet.aragon.org/#/dmrb/0x8e726b1fe740427f6d6e5857d83a6a2f504efab0/vote/7/)
 
-## Deliverables for STOP COVID-19
+## Deliverables for Covidathon
 1. [**Presentation**](https://github.com/indigotheory/decentralized-pandemic-reserve/blob/master/DECENTRALIZED%20PANDEMIC%20RESERVE.pdf)
 2. [**DEMO**](https://youtu.be/nG3cCnCNum8)
 3. [**Axure Prototype**](https://e2us1r.axshare.com)

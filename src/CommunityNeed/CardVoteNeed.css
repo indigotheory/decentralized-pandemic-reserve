@@ -1,0 +1,79 @@
+.voteCard {
+    width: 100%;
+    background-color: white;
+    padding: 1em .6em .6em;
+    border-radius: 4px;
+    border: 1px solid #DDE4E9;
+}
+
+h3.h3-a {
+    font-size: 1.6em;
+    font-weight: 600;
+    font-family: 'Source Sans Pro';
+    margin: .4em .2em 1em;
+}
+
+.cardTitle {
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: "Source Sans Pro";
+    margin: 1.4em 0;
+}
+    .cardTitle > span {
+        font-weight: 400;
+    }
+
+.voteGrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr .75fr;
+    column-gap: .8em;
+    row-gap: .6em;
+    padding:.2em .6em;
+}
+.attribute-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.attribute-scale {
+    background-color: #ccc;
+    height: 3px;
+    width: 100%;
+    position: relative;
+}
+.yes-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform-origin: 0px 0px;
+    background-color: #74CAC9;
+    height: 3px;
+}
+.no-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform-origin: 0px 0px;
+    background-color: #FF008D;
+    height: 3px;
+}
+button.negative {
+    background-color: #FF008D;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+}
+button.positive {
+    background-color: #74CAC9;
+}
+.cardAction {
+    text-align: right;
+    padding: 0.4em 0;
+}
+    .cardAction > a {
+        color: #8080FF;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
