@@ -15,10 +15,13 @@ h3.h3-a {
 
 .cardTitle {
     font-size: 1.2em;
-    font-weight: 400;
+    font-weight: 600;
     font-family: "Source Sans Pro";
     margin: 1.4em 0;
 }
+    .cardTitle > span {
+        font-weight: 400;
+    }
 
 .voteGrid {
     width: 100%;
@@ -34,16 +37,43 @@ h3.h3-a {
 }
 
 .attribute-scale {
-    background-color: #999;
+    background-color: #ccc;
     height: 3px;
     width: 100%;
     position: relative;
 }
-.attribute-progress {
+.yes-progress {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
-    background-color: rgb(86,64,144);
+    width: 100%;
+    transform-origin: 0px 0px;
+    background-color: #74CAC9;
     height: 3px;
 }
+.no-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform-origin: 0px 0px;
+    background-color: #FF008D;
+    height: 3px;
+}
+button.negative {
+    background-color: #FF008D;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+}
+button.positive {
+    background-color: #74CAC9;
+}
+.cardAction {
+    text-align: right;
+    padding: 0.4em 0;
+}
+    .cardAction > a {
+        color: #8080FF;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
