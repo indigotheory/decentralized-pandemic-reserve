@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import { Main, Split, SidePanel } from '@aragon/ui'
-import CommunityNeed from '../CommunityNeed/CommunityNeed'
+import { BrowserRouter as Router } from 'react-router-dom'
+import { BackButton, Bar, Header, Main, Split, SidePanel } from '@aragon/ui'
 import ScoreSidebar from '../components/sidebar/ScoreSidebar'
-import Header from '../components/Header'
 import './VoteDetail.css'
 
 
@@ -21,17 +20,29 @@ const token = {
     ['0xbead…', 1],
   ],
 }
-
+const h1_a = {
+  fontSize: '2.4em',
+  fontWeight: 600,
+  fontFamily: 'Source Sans Pro'
+};
 
 export default function VoteDetail() {
   const [sidePanelOpened, setSidePanelOpened] = useState(false)
   return (
     <Main>
-      <Header />
+      <Header
+            primary={
+                <>
+                <h1 style={h1_a}>Community Voting</h1>
+                {/* <Tag mode="identifier">PTO</Tag> */}
+                </>
+            }
+        />
       <Split
         primary={
           <>
-            <CommunityNeed/>
+            <Bar primary={<BackButton onClick={() => this.BrowserRouter.goBack} />} />
+            Need VoteDetail
           </>
         }
         secondary={

@@ -4,8 +4,7 @@ import Header from './components/Header.js'
 import VoteNeed from './VoteNeed/VoteNeed'
 import VoteDetail from './VoteNeed/VoteDetail';
 import './App.css';
-// import { Router, Switch, Route } from 'react-router-dom'
-
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 // Some demo data
 const token = {
@@ -28,15 +27,17 @@ function App() {
   const [sidePanelOpened, setSidePanelOpened] = useState(false)
   return (
     <Main>
-      <Header />
-      <VoteNeed />
-      {/* <Router>
+      <Router>
         <Switch>
+          <Route path="/voteDetail">
+            <VoteDetail/>
+          </Route>
           <Route path="/">
+            <Header />
             <VoteNeed/>
           </Route>
         </Switch>
-      </Router> */}
+      </Router>
 
 
 
