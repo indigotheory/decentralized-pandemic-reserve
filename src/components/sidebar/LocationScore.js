@@ -1,15 +1,14 @@
 import React from 'react';
-import './ScoreSidebar.css';
+import './attributeScale.css';
 
-function ScoreSidebar(){
+function LocationScore(){
     return(
         <div>
-            <h3>Score</h3>
             <div className="score-attribute">
-                <div className="attribute-title">
+                <p className="attribute-title">
                     <label>Location (LOC)</label>
                     <span>95%</span>
-                </div>
+                </p>
                 <div className="attribute-scale">
                     <div className="attribute-progress"></div>
                 </div>
@@ -18,4 +17,4 @@ function ScoreSidebar(){
     )
     
 }
-export default ScoreSidebar
+export default LocationScore
