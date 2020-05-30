@@ -59,6 +59,12 @@ export default function VoteDetail() {
   var rValuecss = {
     transform: setrValue 
   }
+
+  function goBack() {
+    window.history.back();
+  }
+
+
   return (
     <Main>
       <Header
@@ -71,7 +77,7 @@ export default function VoteDetail() {
       <Split
         primary={
           <>
-            <Bar primary={<BackButton onClick="history.back(-1)" />} />
+            <Bar primary={<BackButton onClick={() => goBack()} />} />
 
             <Box className="detailsWrapper">
               <IdentityBadge
