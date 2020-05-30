@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Header } from '@aragon/ui'
 import './HeaderSite.css'
 
 

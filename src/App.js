@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import ReactDOM from "react-dom"
+import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './home/home'
 import Need from './need/Need'

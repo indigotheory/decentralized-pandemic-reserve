@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { Main,  SidePanel } from '@aragon/ui'
+import { Link } from 'react-router-dom';
+import { Main } from '@aragon/ui'
 //import './home.css';  //Should this change to Home.css? TODO: Find consistent themeing
 
 //Chakra UI - Added by stoner. Mobile compliant if we care about that
@@ -16,7 +17,7 @@ import {
     Text,
     ThemeProvider 
 } from '@chakra-ui/core'
-import { Link, Router } from 'react-router-dom';
+
 
 function Home() {
     return (

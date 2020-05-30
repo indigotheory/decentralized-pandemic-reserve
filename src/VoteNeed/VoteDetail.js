@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { BrowserRouter as Router } from 'react-router-dom'
 import { BackButton, Bar, Box, Header, IdentityBadge, EthIdenticon, Main, Split, SidePanel, Tag } from '@aragon/ui'
 import LocationScore from '../components/sidebar/LocationScore'
 import RValue from '../components/sidebar/RValue'
