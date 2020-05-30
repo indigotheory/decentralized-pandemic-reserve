@@ -46,7 +46,7 @@ function Home() {
                 </Box>
             </Flex>
             <ButtonGroup p="4">
-                <Link to="/need">
+                <Link to="/need" style={{ textDecoration: 'none' }}>
                     <Button 
                     mr="6" 
                     variantColor="purple" 
@@ -54,7 +54,7 @@ function Home() {
                     I have a need
                     </Button>
                 </Link>
-                <Link to="/supply">
+                <Link to="/supply" style={{ textDecoration: 'none' }}>
                     <Button 
                         ml="6"
                         mr="6" 
@@ -63,7 +63,7 @@ function Home() {
                         I can supply
                     </Button>
                 </Link>
-                <Link to="/voteneed"><Button 
+                <Link to="/voteneed" style={{ textDecoration: 'none' }}><Button 
                     ml="6" 
                     variantColor="purple" 
                     size="lg">
