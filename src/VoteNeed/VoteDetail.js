@@ -45,8 +45,6 @@ const DAY = 1000 * 60 * 60 * 24
 const endDate = new Date(NOW + 5 * DAY)
 const startDate = new Date(NOW - 5 * DAY)
 
-
-
 export default function VoteDetail() {
   const [sidePanelOpened, setSidePanelOpened] = useState(false)
   var setyloc = 'scale3d(' + token.yloc + ', 1, 1)';
