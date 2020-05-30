@@ -1,0 +1,10 @@
+@import '../forms.css';
+
+.contentContainer {
+    width: 100%;
+}
+.contentContainer.form_sm {
+    max-width:600px;
+    margin: 0 auto;
+    padding: 2em 1em;
+}

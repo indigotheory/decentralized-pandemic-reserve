@@ -1,0 +1,13 @@
+.cardIcon {
+    text-align: center;
+    margin-bottom:.4em;
+    margin-top:2em;
+}
+.cardLayout {
+    display: flex;
+}
+.cardOption label {
+    font-weight: 700;
+    color: #8080FF;
+    height: 5em;
+}

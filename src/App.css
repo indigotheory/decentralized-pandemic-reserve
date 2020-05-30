@@ -9,9 +9,30 @@
 .MuiButton-containedPrimary {
   border-radius: 3em!important;
 }
+
+/* Sitewide Styles */
 body {
   background-color: #ffffff;
 }
+a {
+  text-decoration: none;
+}
+
+#root h4 {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.cardOption {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+.cardOption .actionButton {
+  margin: .6emem;
+  align-self: flex-end;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
