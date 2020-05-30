@@ -22,7 +22,6 @@ const token = {
   ],
 }
 
-
 export default function VoteDetail() {
   const [sidePanelOpened, setSidePanelOpened] = useState(false)
   return (

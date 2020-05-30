@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import { Main,  SidePanel } from '@aragon/ui'
+import VoteNeed from '../VoteNeed/VoteNeed'
+import VoteDetail from '../VoteNeed/VoteDetail';
 import Header from '../components/Header.js'
 //import './home.css';  //Should this change to Home.css? TODO: Find consistent themeing
 
 //Chakra UI - Added by stoner. Mobile compliant if we care about that
 //https://chakra-ui.com/getting-started
-
 import {
     Box,
     Flex,
@@ -15,11 +16,13 @@ import {
     Link,
     PseudoBox,
     Stack,
-    Text
+    Text,
+    ThemeProvider 
 } from '@chakra-ui/core'
 
 function Home() {
     return (
+    <ThemeProvider>
       <Main>
             <Box pt={[2]} m={[4]}></Box>
                 <Stack spacing={4} align="center">
@@ -42,18 +45,28 @@ function Home() {
                         </Box>
                     </Flex>
                     <ButtonGroup p="4">
-                        <Button mr="6" variantColor="purple" size="lg">
+                        <Button 
+                            mr="6" 
+                            variantColor="purple" 
+                            size="lg">
                             I have a need
                         </Button>
-                        <Button ml="6" variantColor="purple" size="lg">
+                        <Button 
+                            ml="6" 
+                            variantColor="purple" 
+                            size="lg">
                             I can supply
                         </Button>
-                        <Button ml="6" variantColor="purple" size="lg">
+                        <Button 
+                            ml="6" 
+                            variantColor="purple" 
+                            size="lg">
                             See votes
                         </Button>
                     </ButtonGroup>
                 </Stack>
       </Main>
+      </ThemeProvider>
     )
   }
   
