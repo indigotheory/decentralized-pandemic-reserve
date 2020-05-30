@@ -36,4 +36,40 @@
       transform: rotate(360deg);
     }
   }
-  
+
+h1.h1a {
+  font-size: 2.4em;
+  font-weight: 300;
+  font-family: 'Source Sans Pro';
+  width: 100%;
+  margin: 1.4em 0 1.4em .6em
+}
+h2.h2a {
+  font-size: 1.8em;
+  font-weight: 600;
+  font-family: 'Source Sans Pro';
+}
+.needsAssessment{
+  font-size: 1em;
+  font-weight: 300;
+  font-family: 'Source Sans Pro';
+}
+label{
+  font-size: .8em;
+  font-weight: 300;
+  font-family: 'Source Sans Pro';
+  text-transform: uppercase;
+  margin-top: 1em;
+  display: block
+}
+.detailsWrapper p {
+  margin-bottom: 1em;
+}
+.cardTop {
+  display: flex;
+}
+.cardTop aside { flex: 1 auto; }
+.reputationList {
+    display: flex;
+    justify-content: space-between;
+}

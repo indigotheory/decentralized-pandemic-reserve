@@ -1,7 +1,15 @@
+.score-attribute {
+    padding: .6em;
+    margin-bottom: .6em .4em;
+}
 .attribute-title {
     display: flex;
     justify-content: space-between;
 }
+.attribute > * { flex: 1 auto; }
+    .attribute-title > label {
+        margin-top: 0;
+    }
 
 .attribute-scale {
     background-color: #ccc;
@@ -13,7 +21,10 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 100%;
     background-color: rgb(86,64,144);
     height: 3px;
+}
+.attribute-progress.rValue {
+    width:92%;
 }

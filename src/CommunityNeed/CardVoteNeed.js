@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, IdentityBadge, Main } from '@aragon/ui'
+import { Button, IdentityBadge, Timer } from '@aragon/ui'
 import './CardVoteNeed.css';
 
 const need = {
@@ -12,8 +12,13 @@ const need = {
         needTitle: 'Masks N95',
         needLoc: 'Rome, Italy',
         passed: 0
-    } 
+    }
 
+    const NOW = Date.now()
+    const DAY = 1000 * 60 * 60 * 24
+    
+    const endDate = new Date(NOW + 5 * DAY)
+    const startDate = new Date(NOW - 5 * DAY)
 
 function CardVoteNeed(){
     var ytrans = 'scale3d(' + need.yperc + ', 1, 1)';
@@ -67,7 +72,7 @@ function CardVoteNeed(){
                 {/* Vote Button */}
                 <Button mode="negative" className="negative">No</Button>
             </div>
-
+            <div><Timer end={endDate} /> <Timer start={startDate}/></div>
             <hr/>
             <div className="cardAction"><a href="/voteDetail">More</a></div>
         </div>
