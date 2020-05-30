@@ -10,20 +10,7 @@ import { Button, Main} from '@aragon/ui'
 import { ThemeProvider } from '@chakra-ui/core'
 import './App.css'
 
-//TODO: Bug - why is the router not working? 
 
-// function App() {
-//   return (
-//     <main>
-//         <Switch>
-//           <Route path="/" component={Home} exact />
-//           <Route path="/voteneed" component={VoteNeed} />
-//           <Route path="/votedetail" component={VoteDetail} />
-//           <Route component={Error} />
-//         </Switch>
-//     </main>
-//   )
-// }
 
 function App() {
   return (
