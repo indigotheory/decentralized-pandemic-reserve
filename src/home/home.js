@@ -1,8 +1,5 @@
 import React, { useState } from 'react'
 import { Main,  SidePanel } from '@aragon/ui'
-import VoteNeed from '../VoteNeed/VoteNeed'
-import VoteDetail from '../VoteNeed/VoteDetail';
-import Header from '../components/Header.js'
 //import './home.css';  //Should this change to Home.css? TODO: Find consistent themeing
 
 //Chakra UI - Added by stoner. Mobile compliant if we care about that
