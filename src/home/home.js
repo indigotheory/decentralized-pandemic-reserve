@@ -56,7 +56,8 @@ function Home() {
                 </Link>
                 <Link to="/supply">
                     <Button 
-                        ml="6" 
+                        ml="6"
+                        mr="6" 
                         variantColor="purple" 
                         size="lg">
                         I can supply
