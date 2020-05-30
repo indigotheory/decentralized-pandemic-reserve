@@ -36,13 +36,9 @@ function Home() {
                     </Flex>
             
                     {/* TODO: Theme this text with Oswald font */}
-                    {/* TODO: Why can't we center these text elements? */}
-
-                    <Box justify='center'>
-                            <Text fontSize="32px">Welcome to</Text>
-                            <Text fontSize="40px">the Decentralized Pandemic Reserve</Text>
-                    </Box>
-                    
+                    <Text fontSize="32px" display="flex" justifyContent="center" alignContent="center">Welcome to</Text>
+                    <Text fontSize="40px" display="flex" justifyContent="center" alignContent="center">the Decentralized Pandemic Reserve</Text>
+            
                     <ButtonGroup p="4">
                         <Link to="/need" style={{ textDecoration: 'none' }}>
                             <Button 
