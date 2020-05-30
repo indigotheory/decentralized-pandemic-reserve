@@ -14,7 +14,7 @@ import './App.css'
 function App() {
   return (
     <Main>
-      
+
       <Router>
           <Switch>
               <Route path="/voteneed">
@@ -29,7 +29,7 @@ function App() {
               <Route path="/votedetail">
                 <VoteDetail />
               </Route>
-              <Route path="/">
+              <Route path="/" exact>
                 <Home />
               </Route>
           </Switch>
