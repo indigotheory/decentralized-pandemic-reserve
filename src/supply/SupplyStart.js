@@ -48,7 +48,7 @@ function SupplyStart(){
                 <Card className="cardOption">
                     <Link to="/"><img src={require('../img/finished-product.svg')} alt="Raw Materials Icon" className="cardIcon"/></Link>
                     <label>Finished Product</label>
-                    <Link to="/supply/material">
+                    <Link to="/supply/finishedProduct">
                         <Button mode="strong" label="Next" className="actionButton"/>
                     </Link>
                 </Card>

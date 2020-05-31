@@ -8,24 +8,29 @@ import VoteDetail from "./VoteNeed/VoteDetail"
 import { Button, Main} from '@aragon/ui'
 import { ThemeProvider } from '@chakra-ui/core'
 import './App.css'
+import HeaderSite from './components/header/HeaderSite';
 
 
 function App() {
   return (
     <Main>
-
+      
       <Router>
           <Switch>
               <Route path="/voteneed">
+                <HeaderSite/>
                 <VoteNeed />
               </Route>
               <Route path="/need">
+                <HeaderSite/>
                 <Need />
               </Route>
               <Route path="/supply">
+                <HeaderSite/>
                 <Supply />
               </Route>
               <Route path="/votedetail">
+                <HeaderSite/>
                 <VoteDetail />
               </Route>
               <Route path="/" exact>

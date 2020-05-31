@@ -6,3 +6,9 @@
 .form.centerForm {
     text-align: center;
 }
+.form > label {
+    margin: 2em 0 0;
+    font-weight: 600;
+    text-transform: none;
+    font-size: 1em;
+}

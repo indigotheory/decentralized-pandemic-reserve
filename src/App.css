@@ -31,7 +31,9 @@ a {
   margin: .6emem;
   align-self: flex-end;
 }
-
+button.actionButton {
+  margin:1em;
+}
 
 
 @media (prefers-reduced-motion: no-preference) {
