@@ -6,7 +6,7 @@ function LocationScore(){
         <div>
             <div className="score-attribute">
                 <div className="attribute-title">
-                    <label>R-Value</label>
+                    <label>R-Value (R)</label>
                     <span>92%</span>
                 </div>
                 <div className="attribute-scale">

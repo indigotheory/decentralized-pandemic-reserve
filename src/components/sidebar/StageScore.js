@@ -6,7 +6,7 @@ function StageScore(){
         <div>
             <div className="score-attribute">
                 <div className="attribute-title">
-                    <label>Stage(STG))</label>
+                    <label>Stage (STG)</label>
                     <span>4/6</span>
                 </div>
                 <div className="attribute-scale">
