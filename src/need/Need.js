@@ -1,13 +1,38 @@
 import React from 'react';
+import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom' 
+import NeedStart from './NeedStart'
 
 export default function Need() {
   
     return (
-      <div>
-        Need
+      <div className="container">
 
+      <Router>
+        <Switch>
+          <Route exact path="/need">
+            <NeedStart/>
+          </Route>
 
-        
-      </div>
+          {/* <Route path="/need/material">
+            <SupplyMaterial/>
+          </Route>
+
+          <Route path="/need/finishedProduct">
+            <FinishedOffer/>
+          </Route>
+
+          <Route path="/need/finishedCertified">
+            <FinishedCertified/>
+          </Route>
+
+          <Route path="/need/finishedInventory">
+            <FinishedInventory/>
+          </Route> */}
+
+        </Switch>
+      </Router>
+
+      
+    </div>
     );
   }
