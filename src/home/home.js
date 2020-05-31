@@ -35,9 +35,8 @@ function Home() {
                         />
                     </Flex>
             
-                    {/* TODO: Theme this text with Oswald font */}
-                    <Text fontSize="32px" display="flex" justifyContent="center" alignContent="center">Welcome to</Text>
-                    <Text fontSize="40px" display="flex" justifyContent="center" alignContent="center">the Decentralized Pandemic Reserve</Text>
+                    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Oswald:400,700" media="screen" /> 
+                    <Text fontSize="40px" fontFamily="Oswald" display="flex" fontWeight="bold" justifyContent="center" alignContent="center">DECENTRALIZED PANDEMIC RESERVE</Text>
             
                     <ButtonGroup p="4">
                         <Link to="/need" style={{ textDecoration: 'none' }}>
