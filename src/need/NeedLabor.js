@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import ProgressBar from '../components/ProgressBar'
 import { Button, DropDown, TextInput } from '@aragon/ui';
 
-function NeedStart(){
+function NeedLabor(){
   const [value, setValue] = useState('')
   const [selected, setSelected] = useState(0)
 
@@ -11,17 +11,10 @@ function NeedStart(){
         <div>
             <ProgressBar/>
             <div className="contentContainer form_sm form">
-                <label>What do you need?</label>
-                <DropDown
-                items={['Raw Materials / Components', 'Labor / Volunteers', 'Production Process / Equipment','Production Space (rental / share)','Finished Product']}
-                selected={selected}
-                onChange={setSelected}
-                className="dropDown"
-                />
+                
+            Labor
 
-                {/* TODO: Switch on this to go to seperate need pages */}
-
-                <Link to="/need/material">
+                <Link to="/supply/finishedProduct/finishedInventory">
                 <Button mode="strong" label="Next" className="actionButton"/>
                 </Link>
             </div>
@@ -29,4 +22,4 @@ function NeedStart(){
     );
     
 }
-export default NeedStart
+export default NeedLabor

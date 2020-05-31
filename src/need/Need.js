@@ -1,6 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom' 
 import NeedStart from './NeedStart'
+import NeedMaterial from './NeedMaterial'
+import NeedLabor from './NeedLabor'
+import NeedProduct from './NeedProduct'
+import NeedSpace from './NeedSpace'
+import NeedProcess from './NeedProcess'
 
 export default function Need() {
   
@@ -13,26 +18,29 @@ export default function Need() {
             <NeedStart/>
           </Route>
 
-          {/* <Route path="/need/material">
-            <SupplyMaterial/>
+          <Route path="/need/material">
+            <NeedMaterial/>
           </Route>
 
-          <Route path="/need/finishedProduct">
-            <FinishedOffer/>
+          <Route path="/need/labor">
+            <NeedLabor/>
           </Route>
 
-          <Route path="/need/finishedCertified">
-            <FinishedCertified/>
+          <Route path="/need/process">
+            <NeedProcess/>
           </Route>
 
-          <Route path="/need/finishedInventory">
-            <FinishedInventory/>
-          </Route> */}
+          <Route path="/need/space">
+            <NeedSpace/>
+          </Route>
+
+          <Route path="/need/product">
+            <NeedProduct/>
+          </Route>
 
         </Switch>
       </Router>
 
-      
     </div>
     );
   }
