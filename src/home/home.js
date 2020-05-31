@@ -27,8 +27,7 @@ function Home() {
                 <Stack spacing={4} align="center">
                     <Flex align="center">
                         <Image
-                            //TODO: Figure out why src isn't working, but fallback does 
-                            src={'../img/logo.png'}
+                            src={require('../img/logo.png')}
                             size={384}
                             fallbackSrc='https://github.com/indigotheory/DPR-MarketPlace/raw/master/img/icon_sq.png'
                             alt=''
