@@ -4,7 +4,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/indigotheory/decentralized-pandemic-reserve/covidathon)
 
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/indigotheory/decentralized-pandemic-reserve/blob/covidathon/engine/R_t_predction.ipynb)
 
 ## The Team
 @wfsterling
