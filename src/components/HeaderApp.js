@@ -7,7 +7,7 @@ const h1_a = {
     fontFamily: 'Source Sans Pro'
   };
 
-function HeaderAragon(){
+function HeaderApp(){
     const [sidePanelOpened, setSidePanelOpened] = useState(false)
     return(
         <div>
@@ -34,4 +34,4 @@ function HeaderAragon(){
     )
     
 }
-export default HeaderAragon
+export default HeaderApp

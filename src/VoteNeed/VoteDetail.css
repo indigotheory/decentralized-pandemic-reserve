@@ -1,39 +1,38 @@
-.App {
-    text-align: center;
-  }
-  
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
+
+
+h1.h1a {
+  font-size: 2.4em;
+  font-weight: 300;
+  font-family: 'Source Sans Pro';
+  width: 100%;
+  margin: 1.4em 0 1.4em .6em
+}
+h2.h2a {
+  font-size: 1.8em;
+  font-weight: 600;
+  font-family: 'Source Sans Pro';
+}
+.needsAssessment{
+  font-size: 1em;
+  font-weight: 300;
+  font-family: 'Source Sans Pro';
+}
+label{
+  font-size: .8em;
+  font-weight: 300;
+  font-family: 'Source Sans Pro';
+  text-transform: uppercase;
+  margin-top: 1em;
+  display: block
+}
+.detailsWrapper p {
+  margin-bottom: 1em;
+}
+.cardTop {
+  display: flex;
+}
+.cardTop aside { flex: 1 auto; }
+.reputationList {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
+    justify-content: space-between;
+}
