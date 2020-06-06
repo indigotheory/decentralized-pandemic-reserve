@@ -2,6 +2,10 @@
 ## Covidathon Edition
 ### A Decentralized Autonomous Pandemic Reserve to manage international medical resources, supplies, and manufacturing during a pandemic. 
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/indigotheory/decentralized-pandemic-reserve/covidathon)
+
+
+
 ## The Team
 @wfsterling
 @alexanng
