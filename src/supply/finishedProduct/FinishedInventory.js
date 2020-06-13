@@ -32,7 +32,7 @@ function FinishedInventory(){
                 }}
                 />
 
-                <Link to="/voteNeed">
+                <Link to="/">
                     <Button mode="strong" label="Next" className="actionButton"/>
                 </Link>
             </div>

@@ -1,31 +1,78 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link, Route } from "react-router-dom";
 import FilterBar from '../components/FilterBar'
 import './VoteNeed.css'
 import CommunityNeed from '../CommunityNeed/CommunityNeed'
+import { Box, Button, Split } from '@aragon/ui'
+import MainMenu from '../components/menu/MainMenu'
+
+import {
+    Flex,
+    Image,
+    ButtonGroup,
+    Stack,
+    Text,
+    ThemeProvider 
+} from '@chakra-ui/core'
+import { FaGithub } from 'react-icons/fa';
+
+function VoteNeed() {
+    const [sidePanelOpened, setSidePanelOpened] = useState(false)
+    return (
+      <ThemeProvider>
+          <div>
+              <Split
+                  invert="horizontal"
+                  secondary={
+                      <MainMenu/>
+                  }
+                  primary={
+                    <div>
+                      <FilterBar/>
+                      <CommunityNeed/>
+                    </div>
+                  }
+                
+              />
+
+  
+          </div>
+      </ThemeProvider>
+      )
+    }
 
 
-// Some demo data
-// const token = {
-//   name: 'My Organization Token',
-//   symbol: 'MOT',
-//   address: '0x…',
-//   transferable: true,
-//   supply: 8,
-//   holders: [
-//     ['0xcafe…', 3],
-//     ['0xbeef…', 2],
-//     ['0xfeed…', 1],
-//     ['0xface…', 1],
-//     ['0xbead…', 1],
-//   ],
-// }
 
 
-export default function VoteNeed() {
-  return (
-    <div>
-      <FilterBar/>
-      <CommunityNeed/>
-    </div>
-  )
-}
+// const VoteNeed = ({ match }) => {
+//   console.log(match);
+//   return (
+//     <div>
+//       {" "}
+//       <ul>
+//         <li>
+//           <Link to={`${match.url}/shoes`}>Shoes</Link>
+//         </li>
+//         <li>
+//           <Link to={`${match.url}/boots`}>Boots</Link>
+//         </li>
+//         <li>
+//           <Link to={`${match.url}/footwear`}>Footwear</Link>
+//         </li>
+//       </ul>
+//       <Route
+//         path={`${match.path}/:name`}
+//         render={({ match }) => (
+//           <div>
+//             {" "}
+//             <h3> {match.params.name} </h3>
+//           </div>
+//         )}
+//       />
+//     </div>
+//   );
+// };
+// export default VoteNeed;
+
+
+export default VoteNeed

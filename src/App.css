@@ -34,7 +34,10 @@ a {
 button.actionButton {
   margin:1em;
 }
-
+.mainContent {
+  max-width: 100%;
+  width: 100%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
