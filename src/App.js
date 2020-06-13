@@ -6,15 +6,13 @@ import Need from './need/Need'
 import Supply from './supply/Supply';
 import VoteNeed from './VoteNeed/VoteNeed'
 import VoteDetail from "./VoteNeed/VoteDetail"
-import { Button, Main} from '@aragon/ui'
-import { ThemeProvider } from '@chakra-ui/core'
 import './App.css'
 import HeaderSite from './components/header/HeaderSite';
 
 
 function App() {
   return (
-    <Main>
+    <div>
       
       <Router>
           <Switch>
@@ -46,11 +44,10 @@ function App() {
                 <HeaderSite/>
                 <Home />
               </Route>
-              <Route path="/:id" render = {()=> (<p> I want this text to show up for all routes other than '/', '/products' and '/category' </p>)}/>
           </Switch>
       </Router>
 
-    </Main>
+    </div>
   )
 }
 

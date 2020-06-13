@@ -9,9 +9,43 @@
     padding-left:.4em;
 
 }
+
 .mainContent {
     margin-top: .2em;
 }
+.mainContent > div {
+    padding:0;
+}
+.mainContent section {
+    margin:2em 0;
+}
+
+    .mainContent .hero,
+    .mainContent .home2,
+    .mainContent .home3 {
+        display: flex;
+        flex-direction: row;
+        padding: 2em 0 2em 2em
+    }
+    .mainContent .hero .hero-left,
+    .mainContent .hero .hero-right {
+        width: 50%;
+    }
+    .mainContent .hero-img {
+        width: 100%;
+    }
+    .mainContent .home2 {
+        background-color: #D6E3FB;
+        padding-right:2em;
+    }
+
+        .home2 .hero-left{
+            width: 30em;
+        }
+        .home2 .hero-right{
+            width: auto;
+            padding-left: 2em;
+        }
 .mainMenu ul {
     list-style: none;
 }
@@ -31,6 +65,30 @@
     height: 1.6em;
 }
 
-.hero-actions a{
+.hero-left a{
     margin: 0 .6em
+}
+.action-buttons {
+    margin: 2em 0;
+}
+/* Font Styles */
+p.hero-p {
+    color: #303030;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+.mainContent h1{
+  height: 93px;
+  width: 521px;
+  color: #8080FF;
+  font-size: 52px;
+  letter-spacing: 0.11px;
+  line-height: 62px;
+}
+.mainContent h2 {
+    color: #8080FF;
+    font-size: 36px;
+    letter-spacing: 0.07px;
+    line-height: 43px;
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom";
 import { Box } from '@aragon/ui'
+import './MainMenu.css'
 
 class MainMenu extends React.Component {
     render() { 

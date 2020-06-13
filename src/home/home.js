@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Box, Button, Split } from '@aragon/ui'
+import { Box, Button, Main, Split } from '@aragon/ui'
 import MainMenu from '../components/menu/MainMenu'
 import './Home.css';  
 
@@ -29,57 +29,57 @@ function Home() {
                     <MainMenu/>
                 }
                 primary={
+                    <Main>
                     <Box className="mainContent">
-                        <Stack spacing={4} align="center">
-                            <Flex align="center">
-                                <Image
-                                    src={require('../img/logo.png')}
-                                    size={384}
-                                    fallbackSrc='https://github.com/indigotheory/DPR-MarketPlace/raw/master/img/icon_sq.png'
-                                    alt=''
-                                />
-                            </Flex>
-                    
-                            <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Oswald:400,700" media="screen" /> 
-                            <Text fontSize="40px" fontFamily="Oswald" display="flex" fontWeight="bold" justifyContent="center" alignContent="center">DECENTRALIZED PANDEMIC RESERVE</Text>
-                    
-                            <ButtonGroup p="4" className="hero-actions">
-                                <Link to="/need" style={{ textDecoration: 'none' }}>
-                                    {/* <Button 
-                                    mr="6" 
-                                    variantColor="purple" 
-                                    size="lg">
-                                    I have a need
-                                    </Button> */}
-                                    <Button mode="strong" label="I Have A Need" />
+                        <section className="hero">
+                            <div className="hero-left">
+                                <h1>DPR Consortium</h1>
+                                <p className="hero-p">
+                                An international, cooperative DAO using AI to model, inform and manage global resourcesin reponse to a pandemic.
+                                </p>
 
-                                </Link>
-                                <Link to="/supply" style={{ textDecoration: 'none' }}>
-                                    {/* <Button 
-                                        ml="6"
-                                        mr="6" 
-                                        variantColor="purple" 
-                                        size="lg">
-                                        I can supply
-                                    </Button> */}
-                                    <Button mode="strong" label="I Can Supply" />
-                                </Link>
-                                <Link to="/voteneed" style={{ textDecoration: 'none' }}>
-                                    <Button mode="strong" label="See Votes" />
-                                </Link>
-                            </ButtonGroup>
-                        </Stack>
+                                <div className="action-buttons">
+                                    <Link to="/supply"><Button mode="strong" label="I Can Help" /></Link>
+                                    <Link to="/need" className="btn-strong"><Button mode="strong" class="btn-strong" label="I Have A Need" /></Link>
+                                </div>
+                            </div>
+                            <div className="hero-right">
+                                <img src={require('../img/hero.png')} alt="Indigo Theory Flower Logo" className="hero-img"/>
+                            </div>
+                        </section>
+                        
+                        <section className="home2">
+                            <div className="hero-left">
+                                <h2>Suppliers, Manufacturers, Entrepeneurs</h2>
+                                <p className="hero-p">
+                                Contract Manufacturers (CMO’s) and community supplies. This is A Pandemic Reserve capable of pivoting to supply the tests, equipment, and resources needed to fight a pandemic..
+                                </p>
+                                <Link to="/supply"><Button mode="strong" label="I Can Help" /></Link>
+                            </div>
+                            <div className="hero-right">
+                                <img src={require('../img/puzzle.png')} alt="Indigo Theory Flower Logo" className="hero-img"/>
+                            </div>
+                        </section>
+
+                        <section className="home3">
+                            <div className="hero-left">
+                                <img src={require('../img/puzzle.png')} alt="Indigo Theory Flower Logo" className="hero-img"/>
+                                
+                            </div>
+                            <div className="hero-right">
+                                <h2>Suppliers, Manufacturers, Entrepeneurs</h2>
+                                <p className="hero-p">
+                                Contract Manufacturers (CMO’s) and community supplies. This is A Pandemic Reserve capable of pivoting to supply the tests, equipment, and resources needed to fight a pandemic..
+                                </p>
+                                <Link to="/need" className="btn-strong"><Button mode="strong" class="btn-strong" label="I Have A Need" /></Link>
+                            </div>
+                        </section>       
+                                
                     </Box>
-
+                    </Main>
                 }
                 
             />
-            
-            {/* // Github icon - this looks bad and should be on header instead
-
-            <Box>  
-                <FaGithub />
-            </Box> */}
 
         </div>
     </ThemeProvider>

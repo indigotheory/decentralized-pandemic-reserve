@@ -3,18 +3,12 @@ import { Link, Route } from "react-router-dom";
 import FilterBar from '../components/FilterBar'
 import './VoteNeed.css'
 import CommunityNeed from '../CommunityNeed/CommunityNeed'
-import { Box, Button, Split } from '@aragon/ui'
+import { Box, Button, Main, Split } from '@aragon/ui'
 import MainMenu from '../components/menu/MainMenu'
 
 import {
-    Flex,
-    Image,
-    ButtonGroup,
-    Stack,
-    Text,
     ThemeProvider 
 } from '@chakra-ui/core'
-import { FaGithub } from 'react-icons/fa';
 
 function VoteNeed() {
     const [sidePanelOpened, setSidePanelOpened] = useState(false)
@@ -27,10 +21,10 @@ function VoteNeed() {
                       <MainMenu/>
                   }
                   primary={
-                    <div>
+                    <Main>
                       <FilterBar/>
                       <CommunityNeed/>
-                    </div>
+                    </Main>
                   }
                 
               />
