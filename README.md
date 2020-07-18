@@ -1,10 +1,7 @@
 # Decentralized Pandemic Reserve
-## Covidathon Edition
-### A Decentralized Autonomous Pandemic Reserve to manage international medical resources, supplies, and manufacturing during a pandemic. 
+## A Decentralized Autonomous Pandemic Reserve to manage international medical resources, supplies, and manufacturing during a pandemic. 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/indigotheory/decentralized-pandemic-reserve/covidathon)
-
-
 
 ## The Team
 @wfsterling
@@ -13,13 +10,13 @@
 @ronaldstoner
 @exynos-999
 
-## Deliverables for Covidathon
-1. [**Presentation**](https://github.com/indigotheory/decentralized-pandemic-reserve/blob/covidathon/DPR-COVIDathon.pdf)
-2. [**DPR Marketplace**](https://github.com/indigotheory/DPR-MarketPlace)
-2. [**Video DEMO DAO**](https://youtu.be/radLIseCuHY)
+## Current Project Overview
+1. [**Project Presentation**](https://github.com/indigotheory/decentralized-pandemic-reserve/blob/covidathon/DPR-COVIDathon.pdf)
+2. [**DPR Marketplace - A way to enter data on chain**](https://github.com/indigotheory/DPR-MarketPlace)
+2. [**Aragon DAO - Video Demo**](https://youtu.be/radLIseCuHY)
 3. [**inVision Prototype**](https://indigotheory.invisionapp.com/overview/DPR-ck9rffjvz07hd01076jheelpn/screens?v=bujilqen8m8ARyhPKOr5%2FQ%3D%3D&linkshare=urlcopied)
 4. [**Axure Prototype**](https://e2us1r.axshare.com)
-5. [**R_value Engine**](https://github.com/indigotheory/decentralized-pandemic-reserve/blob/master/engine/Readme.md)
+5. [**R_value Recommendation Engine**](https://github.com/indigotheory/decentralized-pandemic-reserve/blob/master/engine/Readme.md)
 
 ## Problems
 1. Companies are repurposing their production lines to join the fight against COVID-19. However, pivoting manufacturing capabilities is no easy task and companies must overcome different levels of complexity in order to make this shift. 
@@ -100,7 +97,3 @@ To create a global resource to respond to a pandemic. A Decentralized Autonomous
     - Locations: Convention Centers, Sporting Arenas, warehouses. Space for beds, procedures. 
   **- Allocating and distributing supplies, resources, and locations through a DAO.**
     - Ex: NYC needs 200,000 masks for the next week. Paris needs 500,000. San Francisco needs 600,000. Global supply produces 200,000/week. Based on outbreak curves/models, allocate masks to all 3 locations based on curve %
-
-
-
-
