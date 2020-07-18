@@ -3,6 +3,13 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/indigotheory/decentralized-pandemic-reserve/covidathon)
 
+## Development/Testing
+Please use npm 6.9.0 and node 10.16.3
+
+1. git clone
+2. npm install
+3. npm start
+
 ## The Team
 @wfsterling
 @alexanng
