@@ -31,8 +31,41 @@
    - **Existing Supplies Example -** Existing supplies in reserves. Tapping into community supply, combining resources into a general supply to move stock piles to areas of need. 
 
 2. Pandemics are a Global problem yet our responses are localized. Beating a pandemic requires international cooperation and resources. When Countries compete with each other for imported supplies, or local communities compete against world trade, in the end, this inefficiency costs lives. We propose a Decentralized Autonomous Supply Chain Database that can match resource need based on manufacturing equipment, materials, and product availability. 
-
   - Create a global pandemic supply train of resources, supplies, and manufacturing capabilities.
+  - A proactive response to outbreaks by using existing models to contain hotspots.
+  - Match needs with resources
+
+## Solution
+### Short-Term Impact:
+The magnitude of the coronavirus crisis and the scale of resource coordination required has necessitated an international response. Connecting manufacturing with those who are in need and those who can help. Fulfilling immediate global supply needs through a global supply chain. Our platform would allow for a factory in Paris to pivot from perfume to hand sanitizer and matched with a grocery store in rural Arkansas in need of hand sanitizer for their work force. 
+
+Repurposing helps companies to protect their own workforce and serve the greater good. Repurposing also allows companies to keep production lines up and running in times of low demand, generate moderate revenues, and positively impact their reputation.
+
+### Long-Term Impact
+To create a global resource to respond to a pandemic. A Decentralized Autonomous Pandemic Reserve that offers every country:
+
+  - Access to global, _**standardized data**_
+  - Access to a global supply chain
+  - Contribution to international reserves
+  - Futures trading in international markets *
+  - A Global response to a global crisis through an international cooperative DAO using AI to model, inform and manage global resources.
+
+
+## Technical Requirements (MVP in bold)
+1. Supply Chain
+  - Existing supplies in reserves. Tapping into community supply, combining resources into a general supply
+  - Facilitate distribution of supplies
+2. **Manufacturing**
+  **- Creating an aggregate  list of needs (masks, ventilators) for all locations**
+  **- Creating a list of manufacturers.**
+  **- Incentives and payments for fulfilling orders**
+3. **Emergency Response**
+  - A volunteer network where businesses and individuals can enroll.
+    - Business: Commit to a reserve supply (5,000 masks, 10 ventilators, pivot as a local manufacturer
+    - Individual: Commit to serve (Doctors, nurses, admin, transportation…). A standing Medical Reserve
+    - Locations: Convention Centers, Sporting Arenas, warehouses. Space for beds, procedures. 
+  **- Allocating and distributing supplies, resources, and locations through a DAO.**
+    - Ex: NYC needs 200,000 masks for the next week. Paris needs 500,000. San Francisco needs 600,000. Global supply produces 200,000/week. Based on outbreak curves/models, allocate masks to all 3 locations based on curve %
   - A proactive response to outbreaks by using existing models to contain hotspots.
   - Match needs with resources
 
