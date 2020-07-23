@@ -9,7 +9,7 @@ function NeedMaterial(){
 
     return(
         <div>
-            <ProgressBar/>
+            {/* <ProgressBar/> */}
             <div className="contentContainer form_sm form">
                 
                 <label>What component or material do you need?</label>
@@ -29,7 +29,7 @@ function NeedMaterial(){
                 />
 
                 <Link to="/supply/finishedProduct/finishedInventory">
-                <Button mode="strong" label="Next" className="actionButton"/>
+                    <Button mode="strong" label="Next" className="actionButton"/>
                 </Link>
             </div>
         </div>

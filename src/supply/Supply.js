@@ -5,8 +5,9 @@ import SupplyMaterial from './SupplyMaterial'
 import SupplyStart from './SupplyStart'
 import FinishedOffer from './finishedProduct/FinishedOffer'
 import FinishedCertified from './finishedProduct/FinishedCertified'
-
 import FinishedInventory from './finishedProduct/FinishedInventory'
+import MaterialRequirements from './material/MaterialRequirements'
+import MaterialInventory from './material/MaterialInventory'
 import ProgressBar from '../components/ProgressBar'
 import { Button, DropDown, TextInput } from '@aragon/ui';
 import './Supply.css'
@@ -25,6 +26,14 @@ export default function Supply() {
 
           <Route path="/supply/material">
             <SupplyMaterial/>
+          </Route>
+
+          <Route path="/supply/materialRequirements">
+            <MaterialRequirements/>
+          </Route>
+
+          <Route path="/supply/materialInventory">
+            <MaterialInventory/>
           </Route>
 
           <Route path="/supply/finishedProduct">

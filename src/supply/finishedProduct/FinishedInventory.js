@@ -13,7 +13,7 @@ function FinishedInventory(){
     return(
         <div>
             <Bar primary={<BackButton onClick={() => goBack()} />} />
-            <ProgressBar/>
+            {/* <ProgressBar/> */}
             <div className="contentContainer form_sm form">
                 
                 <label>What is the expected inventory you can provide of said finished product?</label>

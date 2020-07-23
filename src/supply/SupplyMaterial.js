@@ -9,7 +9,7 @@ function SupplyMaterial(){
 
     return(
         <div>
-            <ProgressBar/>
+            {/* <ProgressBar/> */}
             <div className="contentContainer form_sm form">
                 <label>What material and/or component can you offer?</label>
                 <TextInput
@@ -27,8 +27,8 @@ function SupplyMaterial(){
                 className="dropDown"
                 />
 
-                <Link to="/supply/finishedProduct/finishedInventory">
-                <Button mode="strong" label="Next" className="actionButton"/>
+                <Link to="/supply/materialRequirements">
+                    <Button mode="strong" label="Next" className="actionButton"/>
                 </Link>
             </div>
         </div>

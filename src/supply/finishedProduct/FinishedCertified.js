@@ -29,7 +29,7 @@ class FinishedCertified extends Component {
         
             <div>
                 <Bar primary={<BackButton onClick={() => goBack()} />} />
-                <ProgressBar/>
+                {/* <ProgressBar/> */}
                 <div className="contentContainer form_sm form">
                     
                     <label>Is this product regulatory compliant?</label>

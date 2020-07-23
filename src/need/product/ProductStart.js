@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
 import ProgressBar from '../../components/ProgressBar'
-import { BackButton, Bar, Button, DropDown, TextInput } from '@aragon/ui';
+import { BackButton, Bar, Button, DropDown, Card, EmptyStateCard, TextInput } from '@aragon/ui';
 
-function FinishedOffer(){
+function ProductStart(){
   const [value, setValue] = useState('')
   const [selected, setSelected] = useState(0)
   function goBack() {
     window.history.back();
   }
+
     return(
         <div>
             <Bar primary={<BackButton onClick={() => goBack()} />} />
@@ -16,7 +17,7 @@ function FinishedOffer(){
             
             <div className="contentContainer form_sm form">
                 
-                <label>What finished product can you offer?</label>
+            <label>What final product(s) do you need?</label>
                 <DropDown
                 items={['Respirator (N95)', 'Masks (face shields, surgical masks)', 'Hospital Gowns','Gloves','Sanitizer','Ventilators','Test Kits']}
                 selected={selected}
@@ -24,7 +25,7 @@ function FinishedOffer(){
                 className="dropDown"
                 />
 
-                <Link to="/supply/finishedCertified">
+                <Link to="/need/productInventory">
                     <Button mode="strong" label="Next" className="actionButton"/>
                 </Link>
             </div>
@@ -32,4 +33,4 @@ function FinishedOffer(){
     );
     
 }
-export default FinishedOffer
+export default ProductStart

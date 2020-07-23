@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import ProgressBar from '../../components/ProgressBar'
 import { BackButton, Bar, Button, DropDown, TextInput } from '@aragon/ui';
 
-function FinishedOffer(){
+function MaterialInventory(){
   const [value, setValue] = useState('')
   const [selected, setSelected] = useState(0)
   function goBack() {
@@ -16,12 +16,20 @@ function FinishedOffer(){
             
             <div className="contentContainer form_sm form">
                 
-                <label>What finished product can you offer?</label>
-                <DropDown
-                items={['Respirator (N95)', 'Masks (face shields, surgical masks)', 'Hospital Gowns','Gloves','Sanitizer','Ventilators','Test Kits']}
-                selected={selected}
-                onChange={setSelected}
-                className="dropDown"
+                <label>What is the expected inventory you can provide of said material or component?</label>
+                <TextInput
+                value={value}
+                onChange={event => {
+                    setValue(event.target.value)
+                }}
+                />
+
+                <label>Estimated cost per unit?</label>
+                <TextInput
+                value={value}
+                onChange={event => {
+                    setValue(event.target.value)
+                }}
                 />
 
                 <Link to="/supply/finishedCertified">
@@ -32,4 +40,4 @@ function FinishedOffer(){
     );
     
 }
-export default FinishedOffer
+export default MaterialInventory
