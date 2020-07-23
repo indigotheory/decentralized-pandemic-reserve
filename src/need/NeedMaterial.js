@@ -4,8 +4,11 @@ import ProgressBar from '../components/ProgressBar'
 import { Button, DropDown, TextInput } from '@aragon/ui';
 
 function NeedMaterial(){
-  const [value, setValue] = useState('')
+  const [amount, setAmount] = useState('')
   const [selected, setSelected] = useState(0)
+
+  console.log("List selection: " + selected);
+  console.log("Amount selected: " + amount);
 
     return(
         <div>
@@ -22,9 +25,9 @@ function NeedMaterial(){
 
                 <label>How much of the component or material do you need?</label>
                 <TextInput
-                value={value}
+                value={amount}
                 onChange={event => {
-                    setValue(event.target.value)
+                    setAmount(event.target.value)
                 }}
                 />
 
