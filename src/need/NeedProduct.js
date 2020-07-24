@@ -9,7 +9,7 @@ function NeedMaterial(){
 
     return(
         <div>
-            <ProgressBar/>
+            {/* <ProgressBar/> */}
             <div className="contentContainer form_sm form">
                 
             ProductPage

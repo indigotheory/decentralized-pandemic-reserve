@@ -10,7 +10,7 @@ function SupplyStart(){
 
     return(
         <div className="contentContainer form centerForm">
-            <ProgressBar/>
+            {/* <ProgressBar/> */}
             <h4>I can offer</h4>
             <div className="cardLayout">
                 <Card className="cardOption">
@@ -21,6 +21,7 @@ function SupplyStart(){
                     </Link>
                 </Card>
 
+                
                 <Card className="cardOption">
                     <Link to="/"><img src={require('../img/labor.svg')} alt="Raw Materials Icon" className="cardIcon"/></Link>
                     <label>Labor / Volunteers</label>
