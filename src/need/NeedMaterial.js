@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
-import ProgressBar from '../components/ProgressBar'
+// import ProgressBar from '../components/ProgressBar'
 import { Button, DropDown, TextInput } from '@aragon/ui';
 
 function NeedMaterial(){

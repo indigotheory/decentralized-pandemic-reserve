@@ -1,8 +1,8 @@
 import React, { Component, useState } from 'react';
 import { Link } from 'react-router-dom'
-import ProgressBar from '../../components/ProgressBar'
-import { BackButton, Bar, Button, DropDown,Radio, RadioGroup, TextInput } from '@aragon/ui';
-import { render } from '@testing-library/react';
+// import ProgressBar from '../../components/ProgressBar'
+import { BackButton, Bar, Button, DropDown, TextInput } from '@aragon/ui';
+// import { render } from '@testing-library/react';
 
 function NeedAssessment(){
     const [value, setValue] = useState('')

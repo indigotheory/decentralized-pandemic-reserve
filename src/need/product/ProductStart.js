@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
-import ProgressBar from '../../components/ProgressBar'
-import { BackButton, Bar, Button, DropDown, Card, EmptyStateCard, TextInput } from '@aragon/ui';
+// import ProgressBar from '../../components/ProgressBar'
+import { BackButton, Bar, Button, DropDown } from '@aragon/ui';
 
 function ProductStart(){
-  const [value, setValue] = useState('')
-  const [selected, setSelected] = useState(0)
-  function goBack() {
-    window.history.back();
-  }
+    const [need_product, setNeedProduct] = useState(0)
+    console.log("Need Product: " + need_product);
+
+    function goBack() {
+        window.history.back();
+    }
 
     return(
         <div>
@@ -20,8 +21,8 @@ function ProductStart(){
             <label>What final product(s) do you need?</label>
                 <DropDown
                 items={['Respirator (N95)', 'Masks (face shields, surgical masks)', 'Hospital Gowns','Gloves','Sanitizer','Ventilators','Test Kits']}
-                selected={selected}
-                onChange={setSelected}
+                selected={need_product}
+                onChange={setNeedProduct}
                 className="dropDown"
                 />
 

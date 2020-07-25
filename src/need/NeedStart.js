@@ -19,13 +19,13 @@ function NeedStart(){
             {/* <ProgressBar/> */}
             <h4>I need</h4>
             <div className="cardLayout">
-                {/* <Card className="cardOption">
+                <Card className="cardOption">
                     <Link to="/"><img src={require('../img/raw-materials.svg')} alt="Raw Materials Icon" className="cardIcon"/></Link>
                     <label>Raw Materials / Components</label>
                     <Link to="/need/material">
                         <Button mode="strong" label="Next" className="actionButton"/>
                     </Link>
-                </Card> */}
+                </Card>
 
                 {/* <Card className="cardOption">
                     <Link to="/"><img src={require('../img/labor.svg')} alt="Raw Materials Icon" className="cardIcon"/></Link>
