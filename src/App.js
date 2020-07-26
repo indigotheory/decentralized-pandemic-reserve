@@ -5,8 +5,8 @@ import Need from './need/Need'
 import Supply from './supply/Supply';
 import VoteNeed from './VoteNeed/VoteNeed'
 import VoteDetail from "./VoteNeed/VoteDetail"
-import { Button, Main} from '@aragon/ui'
-import { ThemeProvider } from '@chakra-ui/core'
+import { Main} from '@aragon/ui'
+// import { ThemeProvider } from '@chakra-ui/core'
 import './App.css'
 import HeaderSite from './components/header/HeaderSite';
 
